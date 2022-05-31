@@ -1,0 +1,21 @@
+h1
+{
+    color: orangered;
+}
+
+
+body
+{
+    color: rgb(136, 194, 28);
+    background-color: rgb(14, 13, 19);
+    background-image: url(ca.jpg );
+    background-position:no-repeat;
+}
+i
+{
+    color: darkgoldenrod;
+}
+label
+{
+    color: black;
+}

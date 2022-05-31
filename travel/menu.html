@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="C:\Users\hp Probook 4540s\Desktop\web disign\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\hp Probook 4540s\Desktop\web disign\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\bootstrap-3.3.7-dist\fonts\css\glyphicons-halflings-regular.css">
+    <title>menu</title>
+</head>
+<body>
+    <div style="text-align: center;"> <h1> OU VOULEZ-VOUS ALLER </h1> </div> <br>
+      
+    <div style="text-align: center;"><i> <hr> REMPLISEZ LE FORMULAIRE SUIVANT</i></div>
+    <div class="container"> <hr>
+        <div style="text-align: right;">
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-4 md-3">
+                    <label for="Prénom">Nom</label>
+                    <input type="text" class="form-control" id="Nom" placeholder="AYENAN"required> <br>
+                    
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"></div>
+                </div>
+                <div class="col-md-4 md-3">
+                    <label for="">Prénom</label>
+                    <input type="text"class="form-control"id="Prénom"placeholder="Merboze"required> <br>
+                    
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"></div>
+                </div>                
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="ville">Ville</label>
+                    <input type="text" class="form-control" id="ville"placeholder="ville" required> <br>
+                    
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"></div>
+                </div>
+                 <div class="col-md-3 md-3">
+                 <label for="Pays">Pays</label>
+                 <input type="text" class="form-control" id="Pays"placeholder="pays" required> <br>
+                 
+                 <div class="valid-feedback"></div>
+                <div class="invalid-feedback"></div>
+                </div>
+            </div>
+             <div class="form-row">
+                <div class=" col-md-6 md-3">
+                    <label for="code postal">code postal</label>
+                    <input type="text"class="form-control"id="code postal" placeholder="code postal" required> <br>
+                    
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"></div>
+                </div>
+             </div>
+            
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="ville de destination">Ville de destination</label>
+                    <input type="text" class="form-control" id="ville de destination"placeholder="ville de desdination" required> <br>
+                    <br>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"></div>
+                </div>
+              <div class="col-md-6 md-3">
+                 <label for="Pays de destination">Pays de destination</label>
+                 <input type="text" class="form-control" id="Pays de destination"placeholder="pays de destination" required> <br>
+                 
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+              </div>
+            </div>
+
+        </form>
+            
+        
+        </div>
+    </div>
+    <div style="text-align: right;">
+    <div class="form-group">
+        <div class="form-chek">
+            <input class="form-check-input" type="checkbox" value=""id ="cgu" required>
+            <label class="form-chek-label" for="cgu"> j'accepte les condition générales du voyages </label> <br>
+            <br>
+            <div class="invalid-feedback"></div>         
+        </div>
+    </div>
+    <button class="btn-btn-primary" type="submit">Envoyer</button>
+    </div>
+    <script>
+        $(function()
+    {  
+        'use strict';
+        window.addEventListener(type="load",Listener="any");
+        {
+            let forms=document.getElementsByClassName('needs-validation')
+            let validation=Array.protopyte.filter.call(forms,function(form)
+           {
+              form.addEventListener('submit',function(event)
+             {
+               if(form.checkValidity()==false)
+                 {
+                    event.preventDefault();
+                    even.StopPropagation();
+                 }  
+                  form.classList.add('was-validated');
+              },false)
+            });
+        }false
+     })()
+  </Script>
+</body>
+</html>
